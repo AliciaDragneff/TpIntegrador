@@ -46,3 +46,21 @@ h1{
 .container-lg{justify-content: space-between;}    
 .container-md {justify-content: space-between;}
 .container-sm{ justify-content: space-between;}
+
+@media (max-width: 600px) {
+    .carousel-caption{
+        
+        margin-right: 0%!important;
+        padding-left: 0%;
+        padding-bottom: 2%;
+        margin-right: 0%;
+        font-size: small;
+        
+    }
+    
+  
+    .navbar-brand{
+        color: white;
+        width: 70%;
+    }
+}
